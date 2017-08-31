@@ -21,26 +21,26 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="container" style="display: flex; justify-content: center;">
-                        <img src="images/Gem1.jpg" style="width: 50px; height: 50px; padding: 10px;">
-                        <img src="images/gem2.jpg" style="width: 50px; height: 50px; padding: 10px;">
-                        <img src="images/gem3.jpg" style="width: 50px; height: 50px; padding: 10px;">
-                        <img src="images/gem5.jpeg" style="width: 50px; height: 50px; padding: 10px;">
+                        <img class="gem" id="gem1" src="images/Gem1.jpg" style="width: 50px; height: 50px; padding: 10px;">
+                        <img class="gem" id="gem2" src="images/gem2.jpg" style="width: 50px; height: 50px; padding: 10px;">
+                        <img class="gem" id="gem3" src="images/gem3.jpg" style="width: 50px; height: 50px; padding: 10px;">
+                        <img class="gem" id="gem4" src="images/gem5.jpeg" style="width: 50px; height: 50px; padding: 10px;">
                     </div>
                 </div>
             </div>
             <div class="row" style="display: flex; justify-content: center; padding-top: 15px;">
                 <button class="btn btn-primary" type="button">
-                    Match This Number and Win <span class="badge">0</span>
+                    Match This Number and Win <span class="badge" id ="matchNumb">0</span>
                 </button>
             </div>
             <div class="row" style="display: flex; justify-content: center; padding-top: 15px;">
                 <button class="btn btn-danger" type="button">
-                    Adding Your Gems <span class="badge">0</span>
+                    Adding Your Gems <span  class="badge" id="adding">0</span>
                 </button>
             </div>
             <div class="row" style="padding-top:20px">
-                <div> Wins: <span class="badge">0</span></div>
-                <div style="padding-top:10px;">Losses: <span class="badge">0</span></div>
+                <div> Wins: <span class="badge" id="wins">0</span></div>
+                <div style="padding-top:10px;">Losses: <span id="losses" class="badge">0</span></div>
             </div>
         </div>
     </div>
