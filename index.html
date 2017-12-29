@@ -4,44 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Coding Bootcamp!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Gem Game!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="javascript/game.js"></script>
 </head>
 
 <body>
+    <div class="image"></div>
     <div class="container">
         <div class="jumbotron">
             <div class="page-header">
-                <h3 style="color: purple;">Gem Game</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="container" style="display: flex; justify-content: center;">
-                        <img class="gem" id="gem1" src="images/Gem1.jpg" style="width: 50px; height: 50px; padding: 10px;">
-                        <img class="gem" id="gem2" src="images/gem2.jpg" style="width: 50px; height: 50px; padding: 10px;">
-                        <img class="gem" id="gem3" src="images/gem3.jpg" style="width: 50px; height: 50px; padding: 10px;">
-                        <img class="gem" id="gem4" src="images/gem5.jpeg" style="width: 50px; height: 50px; padding: 10px;">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="container" style="display: flex; justify-content: center;">
+                            <img class="gem" id="gem1" src="images/newGem9.jpg" style="width: 100px; height: 100px; padding: 10px;">
+                            <img class="gem" id="gem2" src="images/newGem4.jpg" style="width: 100px; height: 100px; padding: 10px;">
+                            <img class="gem" id="gem3" src="images/newGem6.jpg" style="width: 100px; height: 100px; padding: 10px;">
+                            <img class="gem" id="gem4" src="images/newGem5.jpg" style="width: 100px; height: 100px; padding: 10px;">
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                </div>
             <div class="row" style="display: flex; justify-content: center; padding-top: 15px;">
-                <button class="btn btn-primary" type="button">
+                <button id="btnColorMatch" type="button">
                     Match This Number and Win <span class="badge" id ="matchNumb">0</span>
                 </button>
             </div>
             <div class="row" style="display: flex; justify-content: center; padding-top: 15px;">
-                <button class="btn btn-danger" type="button">
-                    Adding Your Gems <span  class="badge" id="adding">0</span>
+                <button id="btnColorAdd" type="button">
+                    Adding Gems <span  class="badge" id="adding">0</span>
                 </button>
             </div>
             <div class="row" style="padding-top:20px">
-                <div> Wins: <span class="badge" id="wins">0</span></div>
-                <div style="padding-top:10px;">Losses: <span id="losses" class="badge">0</span></div>
+             <div><h4><strong> Wins:</strong><span class="badge" id="wins">0</span></h4></div>
+                <div style="padding-top:10px;"><h4><strong>Losses:</strong> <span id="losses" class="badge">0</span></h4></div>
             </div>
+
         </div>
     </div>
 </body>

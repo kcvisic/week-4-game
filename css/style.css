@@ -1,0 +1,24 @@
+
+body {
+  margin: 0 auto;
+  background:url("../images/dimond.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+
+    background-color: #eeeeee36;
+
+}
+
+#btnColorAdd{
+  background-color: black;
+  color: white;
+}
+#btnColorMatch{
+  background-color: black;
+  color:white;
+}
