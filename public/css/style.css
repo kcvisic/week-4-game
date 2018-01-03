@@ -10,7 +10,7 @@ body {
 
 .jumbotron {
 
-    background-color: #eeeeee36;
+background-color: #eeeeee36;
 
 }
 
@@ -21,4 +21,20 @@ body {
 #btnColorMatch{
   background-color: black;
   color:white;
+}
+#navBarColor{
+background-color: #eeeeee36;
+}
+#navBar{
+color: black;
+}
+#panel{
+  background-color: #eeeeee36;
+
+}
+h4{
+  color: black;
+}
+h6{
+  color: black;
 }
